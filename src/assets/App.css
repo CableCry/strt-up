@@ -1,0 +1,39 @@
+#root {
+  background-color: var(--background);
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+
+/* Typed Animation  */
+@keyframes typewriter {
+  from { width: 0 }
+  to { width: 9ch } 
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typewriter {
+  font-size: 1.6em;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 1 auto;
+  letter-spacing: 0.15em;
+  animation: 
+    typewriter 0.75s steps(12) 1s forwards,
+    blink 0.5s step-end infinite alternate;
+  border-right: 3px solid var(--text-primary);
+  width: 0;
+  display: inline-block; 
+}
+
+.typewriter::after {
+  content: '\00a0'; 
+  display: inline-block;
+  width: 0;
+}

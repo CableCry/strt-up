@@ -1,5 +1,7 @@
 #### What is Strt-Up?
 
+[Game Link](https://cablecry.github.io/strt-up/)
+
 **Strt-up** is an [incremental game](https://en.wikipedia.org/wiki/Incremental_game) that immerses players in the thrilling journey of building and managing an AI startup. Dive into the tech world, where your choices determine the fate of your company and the AI you create.
 
 #### Key Features:

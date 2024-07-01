@@ -1,3 +1,3 @@
-export * from './model/Model'
-export * from  './view/View'
-export * from './controller/Controller'
+export * from './model/Model.ts'
+export * from  './view/View.ts'
+export * from './controller/Controller.ts'

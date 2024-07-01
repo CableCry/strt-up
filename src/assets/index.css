@@ -17,6 +17,54 @@
     --border: #3D3833;
 }
 
+.background {
+    background-color: var(--background);
+}
+
+.primary-text {
+    color: var(--text-primary)
+}
+
+.secondary-text {
+    color: var(--text-secondary);
+}
+
+.accent {
+    color: var(--accent);
+}
+
+.accent-darker {
+    color: var(--accent-darker);
+}
+
+.secondary-accent {
+    color: var(--secondary-accent);
+}
+
+.accent-teal {
+    color: var(--accent-teal);
+}
+
+.accent-terracotta {
+    color: var(--accent-terracotta);
+}
+
+.accent-sage {
+    color: var(--accent-sage);
+}
+
+.error {
+    color: var(--error);
+}
+
+.surface {
+    background-color: var(--surface);
+}
+
+.border {
+    border-color: var(--border);
+}
+
 body {
     font-family: monospace, sans-serif;
     margin: 0;

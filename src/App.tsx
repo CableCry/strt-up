@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import './assets/App.css';
-import { Root, Title, Stats, Visual } from './components';
+import { Root, Title, Stats, Visual, BuyScale, BuyMulti } from './components';
 import { gameController } from './logic/index';
 
 function App() {
@@ -21,7 +21,9 @@ function App() {
     <Root>
       <Title />
       <Stats />
-      <Visual/>
+      <Visual id="train" />
+      <BuyScale id="scale" />
+      <BuyMulti id="multi" />
     </Root>
   );
 }

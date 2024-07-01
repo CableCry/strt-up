@@ -1,12 +1,27 @@
 import { twMerge } from "tailwind-merge"
 import { ComponentProps } from 'react'
 
-export const Visual = ({ className, ...props }: ComponentProps<'div'>) => {
+// Make buttons for each one of these times
+export const Visual = ({ className, ...props }: ComponentProps<'button'>) => {
   return (
-    <div className={twMerge('flex flex-row bg-[--surface] w-[35vw] max-w-[300px] min-w-[200px] h-[30vh] max-h-[200px] min-h-[100px] rounded-lg p-4 my-1', className)} {...props}>
-      <div className='flex flex-col justify-center'>
-      </div>
-
-    </div>
+    <button className={twMerge('flex flex-row bg-[--surface] hover:bg-[--accent] rounded-sm p-4 my-1', className)} {...props}>
+      Train Model
+    </button>
   )
-}
+};
+
+export const BuyScale = ({ className, ...props }: ComponentProps<'button'>) => {
+  return (
+    <button className={twMerge('flex flex-row bg-[--surface] hover:bg-[--accent] rounded-sm p-4 my-1', className)} {...props}>
+      +1 per/click
+    </button>
+  )
+};
+
+export const BuyMulti = ({ className, ...props }: ComponentProps<'button'>) => {
+  return (
+    <button className={twMerge('flex flex-row bg-[--surface] hover:bg-[--accent] rounded-sm p-4 my-1', className)} {...props}>
+      x2 per/click
+    </button>
+  )
+};
